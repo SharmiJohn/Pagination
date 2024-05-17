@@ -23,7 +23,7 @@ function App() {
         );
         setdata(response.data);
       } catch (err) {
-        alert("failed data fetch")
+        alert("failed to fetch data")
       }
     };
     fetchdata();
